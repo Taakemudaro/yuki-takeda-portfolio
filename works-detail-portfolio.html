@@ -1,0 +1,708 @@
+<!DOCTYPE html>
+<html lang="ja">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="採用者目線での読み心地を意識したデザイン転職向けポートフォリオ。デザイナーになるためにデザイン制作会社への転職を目指している私自身のポートフォリオを制作いたしました。採用者の方々が見るときの気持ちを最優先に考えて設計を行いつつ、私らしさが全面に伝わるサイトを目指し制作しました。"
+    />
+    <!-- ogp -->
+    <meta
+      property="og:url"
+      content="https://yuki-takeda.com/works-detail-portfolio.html"
+    />
+    <meta property="og:type" content="website" />
+    <meta
+      property="og:title"
+      content="ポートフォリオ | Yuki Takeda Portfolio"
+    />
+    <meta
+      property="og:description"
+      content="採用者目線での読み心地を意識したデザイン転職向けポートフォリオ。デザイナーになるためにデザイン制作会社への転職を目指している私自身のポートフォリオを制作いたしました。採用者の方々が見るときの気持ちを最優先に考えて設計を行いつつ、私らしさが全面に伝わるサイトを目指し制作しました。"
+    />
+    <meta property="og:site_name" content="Yuki Takeda Portfolio" />
+    <!-- SNS投稿時に表示したい画像 -->
+    <meta
+      property="og:image"
+      content="https://yuki-takeda.com/assets/images/ogp.png"
+    />
+    <title>ポートフォリオ | Yuki Takeda Portfolio</title>
+    <!-- favicon -->
+    <link rel="shortcut icon" href="./assets/images/favicon.ico" />
+    <!-- iphone-favicon -->
+    <link
+      rel="apple-touch-icon"
+      sizes="180x180"
+      href="./assets/images/apple-touch-icon.png"
+    />
+    <!-- android-favicon -->
+    <link
+      rel="icon"
+      type="image/png"
+      href="./assets/images/android-chrome-256x256.png"
+    />
+    <!-- web font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@100..700&display=swap"
+      rel="stylesheet"
+    />
+    <script>
+      (function (d) {
+        var config = {
+            kitId: "sgs8phn",
+            scriptTimeout: 3000,
+            async: true,
+          },
+          h = d.documentElement,
+          t = setTimeout(function () {
+            h.className =
+              h.className.replace(/\bwf-loading\b/g, "") + " wf-inactive";
+          }, config.scriptTimeout),
+          tk = d.createElement("script"),
+          f = false,
+          s = d.getElementsByTagName("script")[0],
+          a;
+        h.className += " wf-loading";
+        tk.src = "https://use.typekit.net/" + config.kitId + ".js";
+        tk.async = true;
+        tk.onload = tk.onreadystatechange = function () {
+          a = this.readyState;
+          if (f || (a && a != "complete" && a != "loaded")) return;
+          f = true;
+          clearTimeout(t);
+          try {
+            Typekit.load(config);
+          } catch (e) {}
+        };
+        s.parentNode.insertBefore(tk, s);
+      })(document);
+    </script>
+    <!-- css -->
+    <link rel="stylesheet" href="./assets/css/sanitize.css" />
+    <link rel="stylesheet" href="./assets/css/swiper-bundle.min.css" />
+    <link rel="stylesheet" href="./assets/css/common.css" />
+    <link rel="stylesheet" href="./assets/css/works-detail.css" />
+
+    <!-- js -->
+    <script src="./assets/js/main.js" defer></script>
+  </head>
+  <body class="wrap">
+    <div class="container" id="container">
+      <header class="header">
+        <h1 class="header__logo">
+          <a href="./index.html#container">
+            <img
+              class="header__logo--icon"
+              src="./assets/images/logo-symbol-icon.svg"
+              alt=""
+            />
+            <img
+              class="header__logo--name"
+              src="./assets/images/logo-icon-black.svg"
+              alt="Yuki Takeda（ロゴ）"
+            />
+          </a>
+        </h1>
+        <nav class="header__nav">
+          <ul class="header__nav-list">
+            <li class="nav__item">
+              <a href="./works.html"
+                ><img
+                  class="nav__item-icon"
+                  src="./assets/images/nav-works.svg"
+                  alt=""
+                />制作実績</a
+              >
+            </li>
+            <li class="nav__item">
+              <a href="./about.html"
+                ><img
+                  class="nav__item-icon"
+                  src="./assets/images/nav-about.svg"
+                  alt=""
+                />私について</a
+              >
+            </li>
+            <li class="nav__item nav__item--arrow">
+              <a href="https://yuki-travelmap.com" target="_blank"
+                ><img
+                  class="nav__item-icon"
+                  src="./assets/images/nav-travelmap.svg"
+                  alt=""
+                />私の旅ブログ</a
+              >
+            </li>
+            <li class="nav__item nav__item--arrow">
+              <a href="mailto:yukitakedaamr@gmail.com"
+                ><img
+                  class="nav__item-icon"
+                  src="./assets/images/nav-contact.svg"
+                  alt=""
+                />お問い合わせ</a
+              >
+            </li>
+          </ul>
+        </nav>
+        <div class="menu__btn">
+          <div class="menu__btn-1"></div>
+          <div class="menu__btn-2"></div>
+          <div class="menu__btn-3"></div>
+        </div>
+        <!-- Header Menu -->
+        <div class="menu">
+          <div class="menu--upper">
+            <a class="menu__logo" href="./index.html#container">
+              <img
+                src="./assets/images/logo-icon-white.svg"
+                alt="Yuki Takeda（ロゴ）"
+              />
+            </a>
+            <div class="menu__sns">
+              <a
+                class="sns--x"
+                href="https://x.com/Yuki_TravelMap"
+                target="_blank"
+              >
+                <img src="./assets/images/x-icon.svg" alt="Xアカウント" />
+              </a>
+              <a
+                class="sns--note"
+                href="https://note.com/yuki_travelmap"
+                target="_blank"
+              >
+                <img src="./assets/images/note-icon.svg" alt="noteアカウント" />
+              </a>
+              <a
+                class="sns--github"
+                href="https://github.com/Taakemudaro"
+                target="_blank"
+              >
+                <img
+                  src="./assets/images/github-icon.svg"
+                  alt="GitHubアカウント"
+                />
+              </a>
+              <a
+                class="sns--instagram"
+                href="https://www.instagram.com/taakemudaro/"
+                target="_blank"
+              >
+                <img
+                  src="./assets/images/instagram-icon.svg"
+                  alt="instagramアカウント"
+                />
+              </a>
+            </div>
+          </div>
+          <nav class="menu__nav">
+            <ul class="menu__nav-list">
+              <li class="nav__item nav__item--menu">
+                <a href="./works.html"
+                  ><img
+                    class="nav__item-icon"
+                    src="./assets/images/nav-works.svg"
+                    alt=""
+                  />制作実績</a
+                >
+              </li>
+              <li class="nav__item nav__item--menu">
+                <a href="./about.html"
+                  ><img
+                    class="nav__item-icon"
+                    src="./assets/images/nav-about.svg"
+                    alt=""
+                  />私について</a
+                >
+              </li>
+              <li class="nav__item nav__item--menu nav__item--arrow">
+                <a href="https://yuki-travelmap.com" target="_blank"
+                  ><img
+                    class="nav__item-icon"
+                    src="./assets/images/nav-travelmap.svg"
+                    alt=""
+                  />私の旅ブログ</a
+                >
+              </li>
+              <li class="nav__item nav__item--menu nav__item--arrow">
+                <a href="mailto:yukitakedaamr@gmail.com"
+                  ><img
+                    class="nav__item-icon"
+                    src="./assets/images/nav-contact.svg"
+                    alt=""
+                  />お問い合わせ</a
+                >
+              </li>
+            </ul>
+          </nav>
+        </div>
+        <div class="menu__bg"></div>
+      </header>
+      <main class="main">
+        <article>
+          <div class="works-detail__header fadein">
+            <p class="works-detail__design-type">Web Site</p>
+            <h2 class="works-detail__title">ポートフォリオ</h2>
+            <p class="works-detail__work-type">自主制作</p>
+          </div>
+          <div
+            class="works-detail__fv fadein"
+            data-delay="500"
+            data-duration="1500"
+          >
+            <img
+              src="./assets/images/design-detail-fv-portfolio.png"
+              alt="Yuki Takeda ポートフォリオ"
+            />
+            <div class="works-detail__fv-feature">
+              <ul class="works-detail__fv-list">
+                <!-- <li class="works-detail__fv-item">
+                  <p class="works-detail__fv-key"></p>
+                  <p class="works-detail__fv-value--ja"></p>
+                </li> -->
+                <li class="works-detail__fv-item">
+                  <p class="works-detail__fv-key">事業内容</p>
+                  <p class="works-detail__fv-value--ja">
+                    デザイナー転職向けのポートフォリオ
+                  </p>
+                </li>
+                <li class="works-detail__fv-item">
+                  <p class="works-detail__fv-key">担当役割</p>
+                  <p class="works-detail__fv-value--en">Design / Coding</p>
+                </li>
+                <li class="works-detail__fv-item">
+                  <p class="works-detail__fv-key">サイトURL</p>
+                  <a
+                    class="works-detail__fv-value--en link__hover--white"
+                    href="https://yuki-takeda.com"
+                    target="_blank"
+                    >https://yuki-takeda.com</a
+                  >
+                </li>
+              </ul>
+              <div class="section__btn works-detail__fv-btn">
+                <a href="https://yuki-takeda.com" target="_blank"
+                  >サイトへ遷移する</a
+                >
+              </div>
+            </div>
+          </div>
+          <div class="overview">
+            <h3 class="overview__title fadein">
+              採用者目線での<br
+                class="br--sp"
+              />読み心地を意識した<br />デザイン転職向け<br
+                class="br--sp"
+              />ポートフォリオ
+            </h3>
+            <div class="section__description-list fadein">
+              <p class="section__description">
+                デザイナーになるためにデザイン制作会社への転職を目指している私自身のポートフォリオを制作いたしました。採用者の方々が見るときの気持ちを最優先に考えて設計を行いつつ、私らしさが全面に伝わるサイトを目指し制作しました。
+              </p>
+            </div>
+          </div>
+          <div class="collection">
+            <img
+              src="./assets/images/design-detail-collection-portfolio.png"
+              alt="Yuki Takeda ポートフォリオについて"
+            />
+          </div>
+          <div class="information">
+            <ul class="information__list">
+              <li class="information__item fadein" data-duration="500">
+                <p class="information__item-key">ターゲット</p>
+                <div class="information__item-description-list--multi">
+                  <div class="information__item-description-box">
+                    <span class="information__item-description-style"></span>
+                    <p class="information__item-description--multi">
+                      デザイン制作会社の採用担当者
+                    </p>
+                  </div>
+                  <div class="information__item-description-box">
+                    <span class="information__item-description-style"></span>
+                    <p class="information__item-description--multi">
+                      転職を希望する制作会社先の現場で活躍するデザイナーやエンジニアなどのメンバー
+                    </p>
+                  </div>
+                </div>
+              </li>
+              <li class="information__item fadein" data-duration="500">
+                <p class="information__item-key">制作目的</p>
+                <div class="information__item-description-list--multi">
+                  <div class="information__item-description-box">
+                    <span class="information__item-description-style"></span>
+
+                    <p class="information__item-description--multi">
+                      希望する制作会社への転職を実現するため
+                    </p>
+                  </div>
+                  <div class="information__item-description-box">
+                    <span class="information__item-description-style"></span>
+                    <p class="information__item-description--multi">
+                      制作会社の方々に私自身の評価をいただき、会社内に必要な人材であるかを判断いただくため
+                    </p>
+                  </div>
+                </div>
+              </li>
+              <li class="information__item fadein" data-duration="500">
+                <p class="information__item-key">課題</p>
+                <div class="information__item-description-list--multi">
+                  <div class="information__item-description-box">
+                    <span class="information__item-description-style"></span>
+                    <p class="information__item-description--multi">
+                      デザイナーの実務未経験であること
+                    </p>
+                  </div>
+                  <div class="information__item-description-box">
+                    <span class="information__item-description-style"></span>
+                    <p class="information__item-description--multi">
+                      私の日々のデザイン学習の取り組みを可視化するツールが存在していないこと
+                    </p>
+                  </div>
+                </div>
+              </li>
+              <li class="information__item fadein" data-duration="500">
+                <p class="information__item-key">課題に対して意識したこと</p>
+                <div class="information__item-description-list--multi">
+                  <div class="information__item-description-box">
+                    <span class="information__item-description-style"></span>
+                    <p class="information__item-description--multi">
+                      デザイナーの実務未経験であるからこそ、スタイリングのみに執着せず、1つ1つのデザインに対する言語化や「なぜ」の問いかけの習慣化を行い、伝わるデザインを目指して制作しました。
+                    </p>
+                  </div>
+                  <div class="information__item-description-box">
+                    <span class="information__item-description-style"></span>
+                    <p class="information__item-description--multi">
+                      制作実績だけでは日々のデザイン制作に対するプロセスを十分に伝えられないという課題に対し、他ツールを通じてプロセスを証明できるようnote・GitHub・Xなどのアカウントリンクをメニューやフッターに配置しました。また、趣味で運用中の旅ブログをヘッダーやフッターから「私の旅ブログ」経由で遷移できるようにし、外部ツールへの導線設計にもこだわりました。
+                    </p>
+                  </div>
+                </div>
+              </li>
+              <li class="information__item fadein" data-duration="500">
+                <p class="information__item-key">制作期間</p>
+                <div class="information__item-description-list--multi">
+                  <div class="information__item-description-box">
+                    <span class="information__item-description-style"></span>
+                    <p
+                      class="information__item-description--multi information__item-description--key"
+                    >
+                      企画 / WF
+                    </p>
+                    <p class="information__item-description--value">2週間</p>
+                  </div>
+                  <div class="information__item-description-box">
+                    <span class="information__item-description-style"></span>
+                    <p
+                      class="information__item-description--multi information__item-description--key"
+                    >
+                      デザイン
+                    </p>
+                    <p class="information__item-description--value">
+                      1.5ヶ月間
+                    </p>
+                  </div>
+                  <div class="information__item-description-box">
+                    <span class="information__item-description-style"></span>
+                    <p
+                      class="information__item-description--multi information__item-description--key"
+                    >
+                      コーディング
+                    </p>
+                    <p class="information__item-description--value">3週間</p>
+                  </div>
+                </div>
+              </li>
+              <li class="information__item fadein" data-duration="500">
+                <p class="information__item-key">情報設計</p>
+                <div
+                  class="section__description-list information__description-list"
+                >
+                  <p class="section__description">
+                    ポートフォリオのターゲットは普段膨大な業務を兼任されている採用担当者の方々や現場メンバーの方々となるため、読み進めやすさや見やすさを最重要に考えて制作しています。
+                  </p>
+                  <p class="section__description">
+                    どのようなレイアウト、文字サイズ、余白感だと閲覧する労力を抑えられるのか、瞬時に見せたい情報が頭に入ってくるのかを第三者目線で都度確認を行ったり、友人や家族などに実際のサイトを見てもらった上で意見をいただき、再設計・修正を行いました。
+                  </p>
+                </div>
+              </li>
+              <li class="information__item fadein" data-duration="500">
+                <p class="information__item-key">デザインコンセプト</p>
+                <div
+                  class="section__description-list information__description-list"
+                >
+                  <p class="section__description">
+                    読みやすさや見やすさだけに重視すると個性のないポートフォリオとなってしまうため、2つのコンセプトとデザインテーマを決めてポートフォリオの世界観を決めました。「関わる全ての人々から求められ、喜ばれ、感謝されるデザイナーになりたい」という私のデザインに対する大きな目標・想いをメインコンセプトに、「人生も、デザインも、旅と同じ」という私の趣味である旅をデザインにかけたデザインの面白さをサブコンセプトに掲げました。2つのコンセプトを基に「心から求められ・喜ばれ・感謝されるデザインとは何か？探し求める旅」というデザインテーマを掲げて制作しています。
+                  </p>
+                  <p class="section__description">
+                    コンセプトとテーマを基に3つの世界観を決めました。実務で通用するデザイナーになる！という想いから「プロ感」、メインコンセプトを連想する「楽しさ・喜び」、サブコンセプトで掲げたデザインという旅を連想できるよう「旅行雑誌感」を融合させた世界観を目指してデザインしています。
+                  </p>
+                </div>
+              </li>
+              <li class="information__item fadein" data-duration="500">
+                <p class="information__item-key">デザイン詳細</p>
+                <div
+                  class="section__description-list information__description-list"
+                >
+                  <p class="section__description">
+                    配色選定では、ベースカラーとして自分の性格である「素直さ」を表現したクリーム色、メインカラーとしてプロのデザイナーを目指す「プロ感」・「デザインという旅路」を表現し明度を抑えた茶色、アクセントカラーとしてメインコンセプトの目標に向けて「向上心高く挑戦したい」という想いを込めてオレンジを選定しています。彩度が高いオレンジはベース・メインカラーのどちらとも相性が良く、固定しているヘッダーナビゲーションの可読性を保っています。
+                  </p>
+                  <p class="section__description">
+                    フォント選定や素材制作は、「心から求められ・喜ばれ・感謝されるデザインとは何か？探し求める旅」というデザインテーマを主軸にして制作しています。
+                  </p>
+                  <p class="section__description">
+                    私のデザインに対する目標達成には、幾度もの高い山を登る必要があると考えています。「旅の中で遭遇する山々や広大な大地を楽しみながら進む冒険」を連想できるような幾何学的で躍動感・冒険心をくすぐる「Josefin
+                    Sans」を見出しやタイトルに使用しました。他にも「Montserrat」や「Avenir」などのフォントも検討しましたが、「Josefin
+                    Sans」が最もデザインテーマとポートフォリオにマッチしていると感じ、選定しました。また、小見出しや本文には「旅行雑誌感」をだすため、印刷物に特化したフォントを検討しました。その中でも印刷会社が長年開発・運用している「DNP
+                    Shuei Gothic Gin
+                    Std」を使用し、可読性・信頼性・雑誌感・プロっぽさの融合性を取り入れています。
+                  </p>
+                  <p class="section__description">
+                    素材制作に関しては、「旅の中で遭遇する山々や広大な大地を楽しみながら進む冒険」に必要なグッズを連想して制作しました。全てにおいて、冒険心をくすぐる幾何学的な世界観に統一して制作しています。
+                  </p>
+                </div>
+              </li>
+              <li class="information__item fadein" data-duration="500">
+                <p class="information__item-key">学びや反省点</p>
+                <div
+                  class="section__description-list information__description-list"
+                >
+                  <p class="section__description">
+                    正直、ポートフォリオのデザイン制作が1番難しく苦戦しました。理由としては商材が私自身である点にあると考えています。自分を売り込むために自分らしさを全面に押し出したポートフォリオを制作したいと考えてしまいますが、それだけだと良くわからないポートフォリオが完成してしまう。だけど、採用者目線で考えて作っただけのポートフォリオだと全く特徴・個性のないポートフォリオが完成してしまう。このバランスをどのように考慮し、採用担当者や現場メンバーの方々に響く、自分のデザインの想いがサイトから伝わるポートフォリオになるのかで迷走してしまいましたが、非常に良い経験だったと思っています。
+                  </p>
+                  <p class="section__description">
+                    今回制作したポートフォリオがどのような評価になるのかはまだわからないですが、スクールのトレーナーやデザインイベントでお会いした方々からのご支援によって、ポートフォリオの見直しを行い、デザイン制作するにあたっての見方が変わったと思っています。
+                  </p>
+                  <p class="section__description">
+                    反省点を踏まえ、1つ1つのセクションにおいて、なぜこのレイアウト、余白、文字間、サイズ感で設計し、なぜこの写真やフォント、配色を使用するのか、1つ1つ細かく自問自答を繰り返しリデザインを行いました。まだまだ気付けていない点もたくさんあると思いますが、色々な方からのアドバイスやご指摘を今後も大切にしつつ、世に溢れているたくさんの良いデザインを探し出し、分析し、自分のデザインスキルとして取り入れられるように日々デザインの旅をしていきたいと思っています。
+                  </p>
+                </div>
+              </li>
+            </ul>
+          </div>
+          <div class="pagination pagination--last-page">
+            <a
+              href="./works-detail-tone99-logo.html"
+              class="pagination__btn-previous"
+            >
+              <span>前へ戻る</span>
+            </a>
+            <a href="./works.html" class="pagination__btn-list">
+              <span>一覧へ戻る</span>
+            </a>
+            <!-- <a href="#" class="pagination__btn-next">
+              <span>次へ進む</span>
+            </a> -->
+          </div>
+          <div class="gallery">
+            <div class="gallery__row--pc">
+              <img
+                src="./assets/images/portfolio-top-pc.png"
+                alt="Yuki Takeda ポートフォリオ（TOPページ-PC）"
+              />
+              <img
+                src="./assets/images/portfolio-about-pc.png"
+                alt="Yuki Takeda ポートフォリオ（ABOUTページ-PC）"
+              />
+            </div>
+            <div class="gallery__row--sp">
+              <img
+                class="gallery__img--sp-3col"
+                src="./assets/images/portfolio-top-sp.png"
+                alt="NAIVIVA公式サイト（TOPページ-SP）"
+              />
+              <img
+                class="gallery__img--sp-3col"
+                src="./assets/images/portfolio-about-sp.png"
+                alt="NAIVIVA公式サイト（ABOUTページ-SP）"
+              />
+              <img
+                class="gallery__img--sp-3col"
+                src="./assets/images/portfolio-top-sp-menu.png"
+                alt="NAIVIVA公式サイト（MENUページ-SP）"
+              />
+            </div>
+          </div>
+          <div class="pagination--img pagination--last-page">
+            <a
+              href="./works-detail-tone99-logo.html"
+              class="pagination-img__btn-previous pagination-img-btn06"
+            >
+              <span>前へ戻る</span>
+            </a>
+            <a href="./works.html" class="pagination-img__btn-list">
+              <span>一覧へ戻る</span>
+            </a>
+            <!-- <a href="#" class="pagination-img__btn-next">
+              <span>次へ進む</span>
+            </a> -->
+          </div>
+        </article>
+      </main>
+      <footer class="footer">
+        <section class="section--contact">
+          <a class="contact__box fadein" href="mailto:yukitakedaamr@gmail.com">
+            <div class="contact__feature--left">
+              <div class="contact__header">
+                <h2 class="contact__title">
+                  <span class="contact__title--ja">お問い合わせ</span>
+                  <span class="contact__title--en">Contact</span>
+                </h2>
+                <p class="contact__sub-title">
+                  ここまでご覧いただきまして<br />ありがとうございます！
+                </p>
+              </div>
+              <div class="contact__img--sp">
+                <img
+                  class="contact__img--sp01"
+                  src="./assets/images/contact-1.webp"
+                  alt="Contact"
+                />
+                <img
+                  class="contact__img--sp02"
+                  src="./assets/images/contact-2.webp"
+                  alt="Contact"
+                />
+                <img
+                  class="contact__img--sp03"
+                  src="./assets/images/contact-3.webp"
+                  alt="Contact"
+                />
+              </div>
+              <div class="contact__mail">
+                <p class="contact__mail-description">
+                  下記メールアドレスから<br />お気軽にご連絡お待ちしております。
+                </p>
+                <p class="contact__mail-address">yukitakedaamr@gmail.com</p>
+              </div>
+            </div>
+            <div class="contact__img--pc">
+              <img
+                class="contact__img--pc01"
+                src="./assets/images/contact-1.webp"
+                alt="Contact"
+              />
+              <img
+                class="contact__img--pc02"
+                src="./assets/images/contact-2.webp"
+                alt="Contact"
+              />
+              <img
+                class="contact__img--pc03"
+                src="./assets/images/contact-3.webp"
+                alt="Contact"
+              />
+            </div>
+          </a>
+          <div class="contact__slider swiper">
+            <ul class="swiper-wrapper">
+              <li class="swiper-slide">
+                <span>Thank you for Coming. </span
+                ><span>Thank you for Coming. </span
+                ><span>Thank you for Coming. </span
+                ><span>Thank you for Coming. </span>
+              </li>
+              <li class="swiper-slide">
+                <span>Thank you for Coming. </span
+                ><span>Thank you for Coming. </span
+                ><span>Thank you for Coming. </span
+                ><span>Thank you for Coming. </span>
+              </li>
+            </ul>
+          </div>
+        </section>
+        <div class="section--footer">
+          <div class="footer--upper">
+            <a class="footer__logo" href="./index.html#container">
+              <img
+                src="./assets/images/logo-icon-white.svg"
+                alt="Yuki Takeda（ロゴ）"
+              />
+            </a>
+            <div class="footer__sns">
+              <a
+                class="sns--x"
+                href="https://x.com/Yuki_TravelMap"
+                target="_blank"
+              >
+                <img src="./assets/images/x-icon.svg" alt="Xアカウント" />
+              </a>
+              <a
+                class="sns--note"
+                href="https://note.com/yuki_travelmap"
+                target="_blank"
+              >
+                <img src="./assets/images/note-icon.svg" alt="noteアカウント" />
+              </a>
+              <a
+                class="sns--github"
+                href="https://github.com/Taakemudaro"
+                target="_blank"
+              >
+                <img
+                  src="./assets/images/github-icon.svg"
+                  alt="GitHubアカウント"
+                />
+              </a>
+              <a
+                class="sns--instagram"
+                href="https://www.instagram.com/taakemudaro/"
+                target="_blank"
+              >
+                <img
+                  src="./assets/images/instagram-icon.svg"
+                  alt="instagramアカウント"
+                />
+              </a>
+            </div>
+          </div>
+          <nav class="footer__nav">
+            <ul class="footer__nav-list">
+              <li class="nav__item">
+                <a href="./works.html"
+                  ><img
+                    class="nav__item-icon"
+                    src="./assets/images/nav-works.svg"
+                    alt=""
+                  />制作実績</a
+                >
+              </li>
+              <li class="nav__item">
+                <a href="./about.html"
+                  ><img
+                    class="nav__item-icon"
+                    src="./assets/images/nav-about.svg"
+                    alt=""
+                  />私について</a
+                >
+              </li>
+              <li class="nav__item nav__item--arrow">
+                <a href="https://yuki-travelmap.com" target="_blank"
+                  ><img
+                    class="nav__item-icon"
+                    src="./assets/images/nav-travelmap.svg"
+                    alt=""
+                  />私の旅ブログ</a
+                >
+              </li>
+              <li class="nav__item nav__item--arrow">
+                <a href="mailto:yukitakedaamr@gmail.com"
+                  ><img
+                    class="nav__item-icon"
+                    src="./assets/images/nav-contact.svg"
+                    alt=""
+                  />お問い合わせ</a
+                >
+              </li>
+            </ul>
+          </nav>
+          <div class="small">
+            <small>&copy; 2025 YUKI TAKEDA</small>
+          </div>
+        </div>
+      </footer>
+    </div>
+    <script src="./assets/js/swiper-bundle.min.js"></script>
+  </body>
+</html>

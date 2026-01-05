@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="_レイヤー_1" data-name="レイヤー 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 19.89 15.04">
+  <defs>
+    <style>
+      .cls-1 {
+        stroke-width: .97px;
+      }
+
+      .cls-1, .cls-2 {
+        fill: none;
+      }
+
+      .cls-1, .cls-2, .cls-3 {
+        stroke: #dc6810;
+        stroke-miterlimit: 10;
+      }
+
+      .cls-2 {
+        stroke-width: .59px;
+      }
+
+      .cls-4 {
+        fill: #ff8d40;
+      }
+
+      .cls-3 {
+        fill: #f08843;
+        stroke-width: .47px;
+      }
+    </style>
+  </defs>
+  <g id="PCSPIcon_白色なし">
+    <g id="PCIcon">
+      <path class="cls-1" d="M17.17,5.65V1.4c0-.55-.45-1-1-1H1.66C1.1.4.66.85.66,1.4v10.94c0,.55.45,1,1,1h12.99"/>
+      <path class="cls-4" d="M15.65,5.65h.22v-2.93c0-.55-.45-1-1-1H2.98c-.55,0-1,.45-1,1v8.36c0,.55.45,1,1,1h11.67v-5.43c0-.55.45-1,1-1Z"/>
+      <path class="cls-3" d="M.2,14.43h18.18"/>
+    </g>
+    <g id="SPIcon">
+      <rect class="cls-2" x="14.65" y="5.38" width="5.04" height="8.99" rx="1" ry="1"/>
+      <rect class="cls-4" x="15.24" y="6.57" width="3.87" height="6.04" rx="1" ry="1"/>
+      <ellipse class="cls-4" cx="17.17" cy="13.33" rx=".46" ry=".47"/>
+    </g>
+  </g>
+</svg>

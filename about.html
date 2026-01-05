@@ -1,0 +1,820 @@
+<!DOCTYPE html>
+<html lang="ja">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="竹田 侑生。1995年生まれ、東京都江戸川区出身、神奈川県の横浜在住です。趣味は何よりも旅が大好きです。海外も国内も好きで、行ったことある国の数は14カ国です。見たいスポットのためであれば往復6時間でも歩けます。"
+    />
+    <!-- ogp -->
+    <meta property="og:url" content="https://yuki-takeda.com/about.html" />
+    <meta property="og:type" content="website" />
+    <meta property="og:title" content="私について | Yuki Takeda Portfolio" />
+    <meta
+      property="og:description"
+      content="竹田 侑生。1995年生まれ、東京都江戸川区出身、神奈川県の横浜在住です。趣味は何よりも旅が大好きです。海外も国内も好きで、行ったことある国の数は14カ国です。見たいスポットのためであれば往復6時間でも歩けます。"
+    />
+    <meta property="og:site_name" content="Yuki Takeda Portfolio" />
+    <!-- SNS投稿時に表示したい画像 -->
+    <meta
+      property="og:image"
+      content="https://yuki-takeda.com/assets/images/ogp.png"
+    />
+    <title>私について | Yuki Takeda Portfolio</title>
+    <!-- favicon -->
+    <link rel="shortcut icon" href="./assets/images/favicon.ico" />
+    <!-- iphone-favicon -->
+    <link
+      rel="apple-touch-icon"
+      sizes="180x180"
+      href="./assets/images/apple-touch-icon.png"
+    />
+    <!-- android-favicon -->
+    <link
+      rel="icon"
+      type="image/png"
+      href="./assets/images/android-chrome-256x256.png"
+    />
+    <!-- web font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@100..700&display=swap"
+      rel="stylesheet"
+    />
+    <script>
+      (function (d) {
+        var config = {
+            kitId: "sgs8phn",
+            scriptTimeout: 3000,
+            async: true,
+          },
+          h = d.documentElement,
+          t = setTimeout(function () {
+            h.className =
+              h.className.replace(/\bwf-loading\b/g, "") + " wf-inactive";
+          }, config.scriptTimeout),
+          tk = d.createElement("script"),
+          f = false,
+          s = d.getElementsByTagName("script")[0],
+          a;
+        h.className += " wf-loading";
+        tk.src = "https://use.typekit.net/" + config.kitId + ".js";
+        tk.async = true;
+        tk.onload = tk.onreadystatechange = function () {
+          a = this.readyState;
+          if (f || (a && a != "complete" && a != "loaded")) return;
+          f = true;
+          clearTimeout(t);
+          try {
+            Typekit.load(config);
+          } catch (e) {}
+        };
+        s.parentNode.insertBefore(tk, s);
+      })(document);
+    </script>
+    <!-- css -->
+    <link rel="stylesheet" href="./assets/css/sanitize.css" />
+    <link rel="stylesheet" href="./assets/css/swiper-bundle.min.css" />
+    <link rel="stylesheet" href="./assets/css/common.css" />
+    <link rel="stylesheet" href="./assets/css/about.css" />
+    <!-- js -->
+    <script src="./assets/js/main.js" defer></script>
+  </head>
+  <body class="wrap">
+    <div class="container" id="container">
+      <header class="header">
+        <h1 class="header__logo">
+          <a href="./index.html#container">
+            <img
+              class="header__logo--icon"
+              src="./assets/images/logo-symbol-icon.svg"
+              alt=""
+            />
+            <img
+              class="header__logo--name"
+              src="./assets/images/logo-icon-black.svg"
+              alt="Yuki Takeda（ロゴ）"
+            />
+          </a>
+        </h1>
+        <nav class="header__nav">
+          <ul class="header__nav-list">
+            <li class="nav__item">
+              <a href="./works.html"
+                ><img
+                  class="nav__item-icon"
+                  src="./assets/images/nav-works.svg"
+                  alt=""
+                />制作実績</a
+              >
+            </li>
+            <li class="nav__item">
+              <a href="./about.html"
+                ><img
+                  class="nav__item-icon"
+                  src="./assets/images/nav-about.svg"
+                  alt=""
+                />私について</a
+              >
+            </li>
+            <li class="nav__item nav__item--arrow">
+              <a href="https://yuki-travelmap.com" target="_blank"
+                ><img
+                  class="nav__item-icon"
+                  src="./assets/images/nav-travelmap.svg"
+                  alt=""
+                />私の旅ブログ</a
+              >
+            </li>
+            <li class="nav__item nav__item--arrow">
+              <a href="mailto:yukitakedaamr@gmail.com"
+                ><img
+                  class="nav__item-icon"
+                  src="./assets/images/nav-contact.svg"
+                  alt=""
+                />お問い合わせ</a
+              >
+            </li>
+          </ul>
+        </nav>
+        <div class="menu__btn">
+          <div class="menu__btn-1"></div>
+          <div class="menu__btn-2"></div>
+          <div class="menu__btn-3"></div>
+        </div>
+        <!-- Header Menu -->
+        <div class="menu">
+          <div class="menu--upper">
+            <a class="menu__logo" href="./index.html#container">
+              <img
+                src="./assets/images/logo-icon-white.svg"
+                alt="Yuki Takeda（ロゴ）"
+              />
+            </a>
+            <div class="menu__sns">
+              <a
+                class="sns--x"
+                href="https://x.com/Yuki_TravelMap"
+                target="_blank"
+              >
+                <img src="./assets/images/x-icon.svg" alt="Xアカウント" />
+              </a>
+              <a
+                class="sns--note"
+                href="https://note.com/yuki_travelmap"
+                target="_blank"
+              >
+                <img src="./assets/images/note-icon.svg" alt="noteアカウント" />
+              </a>
+              <a
+                class="sns--github"
+                href="https://github.com/Taakemudaro"
+                target="_blank"
+              >
+                <img
+                  src="./assets/images/github-icon.svg"
+                  alt="GitHubアカウント"
+                />
+              </a>
+              <a
+                class="sns--instagram"
+                href="https://www.instagram.com/taakemudaro/"
+                target="_blank"
+              >
+                <img
+                  src="./assets/images/instagram-icon.svg"
+                  alt="instagramアカウント"
+                />
+              </a>
+            </div>
+          </div>
+          <nav class="menu__nav">
+            <ul class="menu__nav-list">
+              <li class="nav__item nav__item--menu">
+                <a href="./works.html"
+                  ><img
+                    class="nav__item-icon"
+                    src="./assets/images/nav-works.svg"
+                    alt=""
+                  />制作実績</a
+                >
+              </li>
+              <li class="nav__item nav__item--menu">
+                <a href="./about.html"
+                  ><img
+                    class="nav__item-icon"
+                    src="./assets/images/nav-about.svg"
+                    alt=""
+                  />私について</a
+                >
+              </li>
+              <li class="nav__item nav__item--menu nav__item--arrow">
+                <a href="https://yuki-travelmap.com" target="_blank"
+                  ><img
+                    class="nav__item-icon"
+                    src="./assets/images/nav-travelmap.svg"
+                    alt=""
+                  />私の旅ブログ</a
+                >
+              </li>
+              <li class="nav__item nav__item--menu nav__item--arrow">
+                <a href="mailto:yukitakedaamr@gmail.com"
+                  ><img
+                    class="nav__item-icon"
+                    src="./assets/images/nav-contact.svg"
+                    alt=""
+                  />お問い合わせ</a
+                >
+              </li>
+            </ul>
+          </nav>
+        </div>
+        <div class="menu__bg"></div>
+      </header>
+      <main class="main">
+        <article>
+          <div class="profile fadein">
+            <div class="footprint"></div>
+            <div class="section__header">
+              <h2 class="section__title">
+                <span class="section__title--ja">私について</span>
+                <span class="section__title--en">About<br />Me</span>
+              </h2>
+              <p class="section__sub-title">
+                人生も、デザインも、旅だと思います。
+              </p>
+            </div>
+            <div class="profile__upper">
+              <div class="profile__img">
+                <img
+                  class="about__profile-img--bg"
+                  src="./assets/images/about-myprofile-bg.webp"
+                  alt=""
+                />
+                <img
+                  class="about__profile-img--main"
+                  src="./assets/images/about-my-profile.webp"
+                  alt="About Me"
+                />
+              </div>
+              <div class="profile__feature">
+                <p class="about__profile-name">
+                  竹田 侑生<span class="about__profile-name--en"
+                    >Yuki Takeda</span
+                  >
+                </p>
+                <div class="section__description-list">
+                  <p class="section__description">
+                    1995年生まれ、東京都江戸川区出身、神奈川県の横浜在住です。
+                  </p>
+                  <p class="section__description">
+                    趣味は何よりも旅が大好きです。海外も国内も好きで、行ったことある国の数は14カ国です。見たいスポットのためであれば往復6時間でも歩けます。そのくらい歩くのが大好きです。シドニーの日本食レストランでアルバイトをした際、交通費節約のため2ヶ月間、片道1時間30分かけてオペラハウスを見ながらハーバーブリッジを渡り、通っていたことは今でも思い出です。
+                  </p>
+                  <p class="section__description">
+                    普段はコーヒーを飲むことが好きです。私にとってコーヒーは仕事や学習のモチベーションを高めてくれたり、疲れを癒してくれたりと、いつの間にか必需品になってしまいました。
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="profile__lower">
+              <div
+                class="profile__camel fadein"
+                data-delay="1000"
+                data-duration="500"
+              >
+                <img
+                  src="./assets/images/about-camel.webp"
+                  alt="トルコのラクダ岩"
+                />
+                <p class="profile__caption">
+                  トルコで往復6時間かけて見に行ったラクダ岩
+                </p>
+              </div>
+              <div
+                class="profile__bridge fadein"
+                data-delay="2000"
+                data-duration="500"
+              >
+                <img
+                  src="./assets/images/about-sydney.webp"
+                  alt="オーストラリアのハーバーブリッジ"
+                />
+                <p class="profile__caption">
+                  オーストラリアでアルバイトのため、2ヶ月間渡り続けたハーバーブリッジ
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="thought">
+            <div class="thought__countries--upper fadein"></div>
+            <div class="thought__feature fadein">
+              <h3 class="thought__title">
+                心から求められ・<br
+                  class="br--sp"
+                />喜ばれ・感謝される<br />デザインを追求したいです。
+              </h3>
+              <div
+                class="section__description-list section__description-list--white"
+              >
+                <p class="section__description">
+                  2021年にホテル業界からIT業界入りし、自分が本当にやりたいことはいったい何だろう？とずっと模索してきました。今までの私の人生経験で気づいたことは「モノづくりが好き」「人から喜ばれる、貢献することが好き」です。人の役に立つモノをたくさん作り、心から喜ばれるものを追求でき、自己成長にも繋がる、そんな素晴らしいものはこれしかない！と思えたものが私にとってデザインでした。私は「デザインと旅で生きていく！」と心に決めました。そこで2025年1月より、3年間「ここに行く！」とずっと決めていた『デジタルハリウッドSTUDIO
+                  by LIG』へ入学し、私のデザイン学習がスタートしました。
+                </p>
+                <p class="section__description">
+                  デザインを本格的に勉強しはじめて「デザインは本当に奥が深くて面白い！」と感じております。学習にのめり込めば込むほど新たな発見や学び、今までできていなかったことなどが無限に現れます。街中を歩けば未知のデザインに遭遇し、デザイン要素を自分のものにできる。まるでデザインも旅をしているのと同じだと気付きました。
+                </p>
+                <p class="section__description">
+                  これから沢山の大きな壁や険しい道に遭遇すると思います。全てを楽しさ・やりがいに変換し、いち早く人から求められる・喜ばれる・感謝されるデザイナーになる為、デザインという旅にでたいと思います。
+                </p>
+              </div>
+            </div>
+            <div class="thought__countries--lower fadein"></div>
+          </div>
+          <div class="strength">
+            <div class="strength__feature">
+              <h3 class="about__title fadein">私の強み</h3>
+              <ul class="strength__list">
+                <li class="strength__item fadein" data-duration="500">
+                  <div class="strength__item-feature">
+                    <h4 class="strength__item-title">
+                      <span class="about__item-no">01</span>継続力
+                    </h4>
+                    <div class="section__description-list">
+                      <p class="section__description">
+                        私は目標を設定し、達成に向けて継続することが得意です。自己成長のために努力することが楽しくて仕方ありません。
+                      </p>
+                      <p class="section__description">
+                        2021年9月、SES企業を通じてIT業界入りし、約4年間1度も学習を止めたことがありません。2021〜2022年はインフラエンジニアの学習に励み、ネットワークやAWS資格を3つ取得し、現場で活かすことができました。2023年〜2024年は開発エンジニアの基礎理解のため、バックエンド・フロントエンドを独学で学び、それぞれ簡単なアプリを作成しました。
+                      </p>
+                      <p class="section__description">
+                        2025年から『デジタルハリウッドSTUDIO by
+                        LIG』に入校し、デザイン学習に励んでいます。日々新しいことを習得できることにやりがい・楽しさを感じながら、奮闘して学習を続けています。
+                      </p>
+                      <p class="section__description">
+                        転職成功後も様々なデザインに挑戦し、新しい発見や採掘をしていきたいです。
+                      </p>
+                    </div>
+                  </div>
+                  <div class="strength__item-img">
+                    <img
+                      class="strength__item-img01 fadein"
+                      data-delay="500"
+                      data-duration="1500"
+                      src="./assets/images/about-strength-1-1.webp"
+                      alt="資格"
+                    />
+                    <img
+                      class="strength__item-img02 fadein"
+                      data-delay="800"
+                      data-duration="1500"
+                      src="./assets/images/about-strength-1-2.webp"
+                      alt="資格"
+                    />
+                    <img
+                      class="strength__item-img03 fadein"
+                      data-delay="1300"
+                      data-duration="1500"
+                      src="./assets/images/about-strength-1-3.webp"
+                      alt="資格"
+                    />
+                    <img
+                      class="strength__item-img04 fadein"
+                      data-delay="1500"
+                      data-duration="1500"
+                      src="./assets/images/about-strength-1-4.webp"
+                      alt="資格"
+                    />
+                    <p class="strength__item-caption fadein" data-delay="1000">
+                      IT業界に入ってから<br />の学習実績
+                    </p>
+                  </div>
+                </li>
+                <li class="strength__item fadein" data-duration="500">
+                  <div class="strength__item-feature">
+                    <h4 class="strength__item-title">
+                      <span class="about__item-no">02</span>素直
+                    </h4>
+                    <div class="section__description-list">
+                      <p class="section__description">
+                        友人や家族、前職の先輩からの他己評価では、素直と言われることが多いです。
+                      </p>
+                      <p class="section__description">
+                        小学生の頃から塾の先生や友人から言われたことを素直に受け入れてしまう傾向にありました。その性格は今でも活かされており、たくさんの新しい発見や学びを得られています。
+                      </p>
+                      <p class="section__description">
+                        インフラエンジニアとして現場参画中に長期間の大トラブルが発生し、夜間対応できる人材が不足していた際、積極的に手を挙げて夜間対応にたくさん参加しました。結果、トラブル時の初動対応や動き方の学びに繋がりました。素直に色々な事に挑戦し、アドバイスや意見に寄り添うことで多くの学びや経験を得られます。
+                      </p>
+                      <p class="section__description">
+                        私の提案や意見出しももちろん大切にしたいですが、デザイナーとして就職後も相手の意見を大切にし、尊重していきたいです。
+                      </p>
+                    </div>
+                  </div>
+                  <div class="strength__item-img">
+                    <img
+                      class="strength__item-img05 fadein"
+                      data-delay="500"
+                      data-duration="1500"
+                      src="./assets/images/about-strength-2-2.webp"
+                      alt=""
+                    />
+                    <img
+                      class="strength__item-img06 fadein"
+                      data-delay="1000"
+                      data-duration="1500"
+                      src="./assets/images/about-strength-2-1.webp"
+                      alt=""
+                    />
+                  </div>
+                </li>
+                <li class="strength__item fadein" data-duration="500">
+                  <div class="strength__item-feature">
+                    <h4 class="strength__item-title">
+                      <span class="about__item-no">03</span
+                      >人に喜んでもらう為に努力すること
+                    </h4>
+                    <div class="section__description-list">
+                      <p class="section__description">
+                        私が最も大切にしていることは、どうすれば人の役に立ち、感謝され、喜んでもらえるのかを考えて仕事することです。
+                      </p>
+                      <p class="section__description">
+                        仕事をしているといつの間にか流れ作業のようになってしまい、何のための作業かを見失ってしまうことがあると思います。私は1つ1つの作業において「何のために行なっているのか」「誰が喜んでくれるのか」を自問自答するようにしています。
+                      </p>
+                      <p class="section__description">
+                        例えばホテルの客室サービス課に従事している際、PCトラブルでZoom会議に間に合わないと混乱されているお客様に対し、お飲み物の準備、一旦お客様の上司に連絡してみるなどの提案、解決法を一緒に調べるなど、お客様に寄り添うことに徹した結果、最終的に会議に間に合い、後日お客様からお褒めの言葉をいただきました。
+                      </p>
+                      <p class="section__description">
+                        デザイン制作においても、どうしたら見やすく伝わりやすい・ユーザが喜ぶ・課題解決に繋がるかなどを追求し、価値あるデザイン作りをしていきたいです。
+                      </p>
+                    </div>
+                  </div>
+                  <div class="strength__item-img">
+                    <img
+                      class="strength__item-img07 fadein"
+                      data-delay="500"
+                      data-duration="1500"
+                      src="./assets/images/about-strength-3-2-1.webp"
+                      alt=""
+                    />
+                    <img
+                      class="strength__item-img08 fadein"
+                      data-delay="800"
+                      data-duration="1500"
+                      src="./assets/images/about-strength-3-2-2.webp"
+                      alt=""
+                    />
+                    <img
+                      class="strength__item-img09 fadein"
+                      data-delay="1100"
+                      data-duration="1500"
+                      src="./assets/images/about-strength-3-1-2.webp"
+                      alt=""
+                    />
+                    <img
+                      class="strength__item-img10 fadein"
+                      data-delay="1400"
+                      data-duration="1500"
+                      src="./assets/images/about-strength-3-1-1.webp"
+                      alt=""
+                    />
+                  </div>
+                </li>
+              </ul>
+            </div>
+            <div class="strength__bg"></div>
+          </div>
+          <div class="skill fadein">
+            <h3 class="about__title">できること</h3>
+            <ul class="skill__list">
+              <li class="skill__item">
+                <div class="skill__item--upper">
+                  <img src="./assets/images/skill-design.png" alt="" />
+                  <p class="about__item-no">01</p>
+                </div>
+                <div class="skill__item--lower">
+                  <h4 class="skill__item-title">デザイン</h4>
+                  <div
+                    class="section__description-list section__description-list--white"
+                  >
+                    <p class="section__description">
+                      下記ツールを使用し、バナーやサイト制作を企画からデザインまで一貫して制作可能です。何よりもクライアントやユーザの意見を大切にし、意味のあるデザインを目指して制作しています。バナー制作がまだ未熟であるため、特訓中です。
+                    </p>
+                  </div>
+                  <p class="skill__item-tool">#Photoshop #Illustrator #Figma</p>
+                </div>
+              </li>
+              <li class="skill__item">
+                <div class="skill__item--upper">
+                  <img src="./assets/images/skill-coding.png" alt="" />
+                  <p class="about__item-no">02</p>
+                </div>
+                <div class="skill__item--lower">
+                  <h4 class="skill__item-title">コーディング</h4>
+                  <div
+                    class="section__description-list section__description-list--white"
+                  >
+                    <p class="section__description">
+                      命名規則などコード全体の見やすさや、どのデバイスサイズからでも綺麗に見えるように意識しています。<br />JavaScriptによるアニメーション実装も可能です。ユーザが操作していて心地よい、分かりやすいと思っていただけるように心がけています。
+                    </p>
+                  </div>
+                  <p class="skill__item-tool">#HTML #CSS #JavaScript</p>
+                </div>
+              </li>
+              <li class="skill__item">
+                <div class="skill__item--upper">
+                  <img src="./assets/images/skill-other.png" alt="" />
+                  <p class="about__item-no">03</p>
+                </div>
+                <div class="skill__item--lower">
+                  <h4 class="skill__item-title">その他</h4>
+                  <div
+                    class="section__description-list section__description-list--white"
+                  >
+                    <p class="section__description">
+                      前職では、業務でGitによるバージョン管理を行っていたため、基本的な操作が可能です。<br />また、趣味でWordPressの既存テーマを使用した旅ブログを運営しており、基礎的なWordPress操作が可能です。現在オリジナルテーマ制作に向けて学習中です。
+                    </p>
+                  </div>
+                  <p class="skill__item-tool">#Git #WordPress</p>
+                </div>
+              </li>
+            </ul>
+          </div>
+          <div class="life fadein">
+            <div class="life__txt">
+              <div class="life__feature">
+                <h3 class="about__title">私の人生</h3>
+                <div class="section__description-list">
+                  <p class="section__description">
+                    20代の私は自分探しの旅をしていました。<br />大学生の頃はPCが大の苦手で、PC業務メインの会社には入らないと心に誓っていました。しかし、就職したホテルでご縁があり、PCメインの部署に配属されたことでPCの操作が楽しくなり、下記の流れで現在に至ります。
+                  </p>
+                </div>
+              </div>
+              <ul class="life__list">
+                <li class="life__item">
+                  <p class="life__item-duration">2014/3〜2019/4</p>
+                  <h4 class="life__item-title">
+                    <img
+                      src="./assets/images/map-icon.svg"
+                      alt=""
+                    />東京の4年制大学生
+                  </h4>
+                  <p class="section__description">
+                    英語に憧れ、大学3年生の時に1年間の語学留学（オーストラリア・フィリピン）を経験。その後、某アパレル業界のお店でアルバイトと海外旅行を交互に行い、10カ国以上を歩き回る。<br />英語を活かすためにホテル業界を目指し、就職活動を行う。
+                  </p>
+                  <div class="life__item--border-bottom"></div>
+                </li>
+                <li class="life__item">
+                  <p class="life__item-duration">2019/4〜2021/8</p>
+                  <h4 class="life__item-title">
+                    <img
+                      src="./assets/images/map-icon.svg"
+                      alt=""
+                    />東京の某ホテル社員
+                  </h4>
+                  <p class="section__description">
+                    東京にある某ホテルで客室サービスの仕事を経験。<br />電話、接客、客室全体（1,006室）の管理を行い、お客様が快適に楽しく過ごせるよう業務に励む。<br />そこでPC業務の楽しさ、素晴らしさを知る。
+                  </p>
+                  <div class="life__item--border-bottom"></div>
+                </li>
+                <li class="life__item">
+                  <p class="life__item-duration">2021/9〜2025/6</p>
+                  <h4 class="life__item-title">
+                    <img
+                      src="./assets/images/map-icon.svg"
+                      alt=""
+                    />横浜のIT企業社員
+                  </h4>
+                  <p class="section__description">
+                    もっと専門的にPCスキルを磨き、PC1つで人々の役に立ちたいという想いからIT業界に入る。<br />インフラエンジニアとしてサーバ構築や運用、APIやツールのコード修正、AWSを使用した案件など複数現場を経験。
+                  </p>
+                  <div class="life__item--border-bottom"></div>
+                </li>
+                <li class="life__item">
+                  <p class="life__item-duration">2025/1〜</p>
+                  <h4 class="life__item-title">
+                    <img
+                      src="./assets/images/map-icon.svg"
+                      alt=""
+                    />デザイン学習
+                  </h4>
+                  <p class="section__description">
+                    IT企業でインフラエンジニアの経験、独学で開発エンジニアの基礎やデザイン基礎の学習を行い、心の底から楽しく今後も続けていきたいと思ったものがデザインだった。<br />2025年1月に念願の『デジタルハリウッドSTUDIO
+                    by LIG』に入校し、デザイン学習に専念する。<br />2025年9月に卒業し、Web制作会社への転職を目指し活動中。
+                  </p>
+                  <div class="life__item--border-bottom"></div>
+                </li>
+              </ul>
+            </div>
+            <div class="life__img">
+              <img src="./assets/images/my-life-txt.svg" alt="My Life" />
+            </div>
+          </div>
+          <div class="vision">
+            <div class="vision__img">
+              <img src="./assets/images/my-vision-txt.svg" alt="My Vision" />
+            </div>
+            <div class="vision__txt fadein">
+              <h3 class="about__title">私のビジョン</h3>
+              <ul class="vision__list">
+                <li class="vision__item vision__item--03years">
+                  <h4 class="vision__item-title">
+                    03<span class="vision__item-word vision__item-word--03years"
+                      >Years later</span
+                    >
+                  </h4>
+                  <p class="section__description section__description--vision">
+                    3年後、自分1人でデザインの良し悪しを判断し、ユーザやクライアントの想いを汲み取れるようになりたいです。目標達成のため、チームメンバー、クライアント、ユーザの意見やアドバイスを尊重し、どうすれば喜ばれる価値あるデザインとなるのかを研究していきたいです。また、人生の中で多くのデザインに巡り合います。せっかく巡り合った機会を無駄にしないよう、デザインの良い要素は何か、何が人を魅了させ、課題解決に結びついているのかなど第三者目線で調査し、価値あるデザイン作りのための材料を蓄積していきます。
+                  </p>
+                </li>
+                <li class="vision__item vision__item--05years">
+                  <h4 class="vision__item-title">
+                    05<span class="vision__item-word vision__item-word--05years"
+                      >Years later</span
+                    >
+                  </h4>
+                  <p class="section__description section__description--vision">
+                    5年後、チームメンバー全体の業務内容の理解に努め、プロジェクト全体の効率性アップに繋がる架け橋的な存在になりたいです。目標達成のため、色々なメンバーの業務工程に興味を持ち、難しいポイントやメンバーの気持ちなど様々な豆知識を習得していきたいです。その上、自分の業務においてどのような考慮があればチームメンバーの効率性やチーム全体のパフォーマンス向上に貢献できるかを考え、実行していきたいです。また、様々なデザインや業務に積極的に挑戦し、プロジェクトでできることの幅を広げたいです。
+                  </p>
+                </li>
+                <li class="vision__item vision__item--10years">
+                  <h4 class="vision__item-title">
+                    10<span class="vision__item-word vision__item-word--10years"
+                      >Years later</span
+                    >
+                  </h4>
+                  <p class="section__description section__description--vision">
+                    私は関わる全てのクライアント、利用ユーザ、チームメンバーから求められ、喜ばれ、感謝されるデザイナーになることが目標です。目標達成のためには多くの方々の内面的な理解、気持ちの汲み取りが必要だと思います。そのため、10年後には上流から下流工程までの全てに関わることを目標とし、日々どんな業務でも積極的に参加していきます。3、5年後のビジョンで掲げた目標を10年後も継続し、関わる全ての方より、心から求められ・喜ばれ・感謝されるデザイナーになれるよう、切磋琢磨努力していきたいです。
+                  </p>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </article>
+      </main>
+      <footer class="footer">
+        <section class="section--contact">
+          <a class="contact__box fadein" href="mailto:yukitakedaamr@gmail.com">
+            <div class="contact__feature--left">
+              <div class="contact__header">
+                <h2 class="contact__title">
+                  <span class="contact__title--ja">お問い合わせ</span>
+                  <span class="contact__title--en">Contact</span>
+                </h2>
+                <p class="contact__sub-title">
+                  ここまでご覧いただきまして<br />ありがとうございます！
+                </p>
+              </div>
+              <div class="contact__img--sp">
+                <img
+                  class="contact__img--sp01"
+                  src="./assets/images/contact-1.webp"
+                  alt="Contact"
+                />
+                <img
+                  class="contact__img--sp02"
+                  src="./assets/images/contact-2.webp"
+                  alt="Contact"
+                />
+                <img
+                  class="contact__img--sp03"
+                  src="./assets/images/contact-3.webp"
+                  alt="Contact"
+                />
+              </div>
+              <div class="contact__mail">
+                <p class="contact__mail-description">
+                  下記メールアドレスから<br />お気軽にご連絡お待ちしております。
+                </p>
+                <p class="contact__mail-address">yukitakedaamr@gmail.com</p>
+              </div>
+            </div>
+            <div class="contact__img--pc">
+              <img
+                class="contact__img--pc01"
+                src="./assets/images/contact-1.webp"
+                alt="Contact"
+              />
+              <img
+                class="contact__img--pc02"
+                src="./assets/images/contact-2.webp"
+                alt="Contact"
+              />
+              <img
+                class="contact__img--pc03"
+                src="./assets/images/contact-3.webp"
+                alt="Contact"
+              />
+            </div>
+          </a>
+          <div class="contact__slider swiper">
+            <ul class="swiper-wrapper">
+              <li class="swiper-slide">
+                <span>Thank you for Coming. </span
+                ><span>Thank you for Coming. </span
+                ><span>Thank you for Coming. </span
+                ><span>Thank you for Coming. </span>
+              </li>
+              <li class="swiper-slide">
+                <span>Thank you for Coming. </span
+                ><span>Thank you for Coming. </span
+                ><span>Thank you for Coming. </span
+                ><span>Thank you for Coming. </span>
+              </li>
+            </ul>
+          </div>
+        </section>
+        <div class="section--footer">
+          <div class="footer--upper">
+            <a class="footer__logo" href="./index.html#container">
+              <img
+                src="./assets/images/logo-icon-white.svg"
+                alt="Yuki Takeda（ロゴ）"
+              />
+            </a>
+            <div class="footer__sns">
+              <a
+                class="sns--x"
+                href="https://x.com/Yuki_TravelMap"
+                target="_blank"
+              >
+                <img src="./assets/images/x-icon.svg" alt="Xアカウント" />
+              </a>
+              <a
+                class="sns--note"
+                href="https://note.com/yuki_travelmap"
+                target="_blank"
+              >
+                <img src="./assets/images/note-icon.svg" alt="noteアカウント" />
+              </a>
+              <a
+                class="sns--github"
+                href="https://github.com/Taakemudaro"
+                target="_blank"
+              >
+                <img
+                  src="./assets/images/github-icon.svg"
+                  alt="GitHubアカウント"
+                />
+              </a>
+              <a
+                class="sns--instagram"
+                href="https://www.instagram.com/taakemudaro/"
+                target="_blank"
+              >
+                <img
+                  src="./assets/images/instagram-icon.svg"
+                  alt="instagramアカウント"
+                />
+              </a>
+            </div>
+          </div>
+          <nav class="footer__nav">
+            <ul class="footer__nav-list">
+              <li class="nav__item">
+                <a href="./works.html"
+                  ><img
+                    class="nav__item-icon"
+                    src="./assets/images/nav-works.svg"
+                    alt=""
+                  />制作実績</a
+                >
+              </li>
+              <li class="nav__item">
+                <a href="./about.html"
+                  ><img
+                    class="nav__item-icon"
+                    src="./assets/images/nav-about.svg"
+                    alt=""
+                  />私について</a
+                >
+              </li>
+              <li class="nav__item nav__item--arrow">
+                <a href="https://yuki-travelmap.com" target="_blank"
+                  ><img
+                    class="nav__item-icon"
+                    src="./assets/images/nav-travelmap.svg"
+                    alt=""
+                  />私の旅ブログ</a
+                >
+              </li>
+              <li class="nav__item nav__item--arrow">
+                <a href="mailto:yukitakedaamr@gmail.com"
+                  ><img
+                    class="nav__item-icon"
+                    src="./assets/images/nav-contact.svg"
+                    alt=""
+                  />お問い合わせ</a
+                >
+              </li>
+            </ul>
+          </nav>
+          <div class="small">
+            <small>&copy; 2025 YUKI TAKEDA</small>
+          </div>
+        </div>
+      </footer>
+    </div>
+    <script src="./assets/js/swiper-bundle.min.js"></script>
+  </body>
+</html>
