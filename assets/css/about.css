@@ -624,7 +624,7 @@ strength
   .strength__feature {
     width: 100%;
     padding-top: var(--height-section-sp);
-    margin-bottom: 15px;
+    margin-bottom: 0;
   }
   .strength__list {
     padding: 0;
@@ -737,7 +737,7 @@ strength
 skill
 */
 .skill {
-  padding: 150px 0 var(--height-section-pc);
+  padding: var(--height-section-pc) 0;
   position: relative;
   z-index: 100;
   background-color: var(--background-primary);
@@ -978,7 +978,7 @@ vision
   width: 32.269%;
 }
 .vision__txt {
-  margin-top: 150px;
+  margin-top: 100px;
 
   opacity: 0;
 }

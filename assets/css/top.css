@@ -6,17 +6,14 @@ fv
 .fv {
   display: flex;
   flex-direction: column;
-  justify-content: flex-end;
-  aspect-ratio: 1360 / 744;
+  justify-content: flex-start;
   width: 100%;
   background-color: var(--background-secondary);
   position: relative;
 }
 .fv__img {
-  position: absolute;
-  top: 65px;
-  left: 15.588%;
-  right: var(--width-section-pc);
+  margin: 65px 0 50px 15.588%;
+  position: relative;
   width: 80.882%;
   aspect-ratio: 1100 /630;
   min-height: 550px;
@@ -26,8 +23,22 @@ fv
   background-repeat: no-repeat;
   background-size: cover;
   z-index: 1;
-
   opacity: 0;
+}
+.fv__sub-topic {
+  text-align: right;
+  color: var(--color-secondary);
+  margin: 0;
+  font-size: 3.1rem;
+  line-height: 1.6;
+  letter-spacing: 0.03em;
+  position: relative;
+  z-index: 10;
+  opacity: 0;
+
+  position: absolute;
+  bottom: 15px;
+  right: 25px;
 }
 .fv__icon-rotate {
   width: 145px;
@@ -60,9 +71,12 @@ fv
   }
 }
 .fv__topic {
-  padding-top: 246px;
+  width: 37.65%;
+  max-width: 511px;
   margin-left: 2.573%;
-  position: relative;
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
   z-index: 10;
 
   opacity: 0;
@@ -81,25 +95,14 @@ fv
 }
 .fv__topic--logo > img {
   margin-top: 12px;
-  width: 38.566%;
-  max-width: 512px;
-}
-.fv__sub-topic {
-  text-align: right;
-  color: var(--color-secondary);
-  margin: 61px 5.367% 0 0;
-  padding-bottom: 74px;
-  font-size: 3.1rem;
-  line-height: 1.6;
-  letter-spacing: 0.03em;
-  position: relative;
-  z-index: 10;
-
-  opacity: 0;
+  width: 100%;
 }
 @media screen and (min-width: 769px) and (max-width: 1024px) {
   .fv__img {
-    aspect-ratio: 828 / 580;
+    aspect-ratio: 4 / 3;
+  }
+  .fv__sub-topic {
+    font-size: 2.3rem;
   }
   .fv__icon-rotate {
     width: 130px;
@@ -113,36 +116,30 @@ fv
   }
 }
 @media screen and (max-width: 768px) {
-  .fv {
-    height: 858px;
-    aspect-ratio: auto;
-  }
   .fv__img {
+    margin: 57px var(--width-section-sp) 20px;
     width: 89.743%;
-    top: 56px;
-    left: var(--width-section-sp);
-    right: var(--width-section-sp);
-    height: 781px;
-    aspect-ratio: 350 / 781;
+    aspect-ratio: 9 / 16;
     background-image: url(../images/fv-sp.webp);
     background-position: center top;
   }
+  .fv__sub-topic {
+    font-size: 1.6rem;
+    bottom: 5px;
+    right: 10px;
+  }
   .fv__topic {
-    padding-bottom: 422px;
     margin-left: 3.846%;
+    width: 52.82%;
+    min-width: 206px;
+    top: 193px;
+    transform: none;
   }
   .fv__topic--sub {
     font-size: 1.8rem;
   }
   .fv__topic--logo > img {
     margin-top: 10px;
-    width: 54.933%;
-    max-width: 206px;
-  }
-  .fv__sub-topic {
-    margin: 0 6.666% 0;
-    padding-bottom: 25px;
-    font-size: 1.9rem;
   }
   .fv__icon-rotate {
     width: 100px;
