@@ -73,7 +73,7 @@ fv
 .fv__topic {
   width: 37.65%;
   max-width: 511px;
-  margin-left: 2.573%;
+  margin-left: 2.205%;
   position: absolute;
   top: 50%;
   transform: translateY(-50%);
@@ -159,26 +159,26 @@ works
 .section--works {
 }
 .works__list {
-  margin: 60px var(--width-section-pc) 50px;
+  margin: 40px 10.294% 50px;
 }
 .works__items--row {
   display: flex;
+  padding: 0 0.833%;
   border-bottom: 1px solid var(--border-primary);
 }
 .works__item--left,
 .works__item--right {
   display: flex;
   flex-direction: column;
-  justify-content: flex-end;
+  justify-content: flex-start;
   width: 50%;
-  padding: 40px 0;
 }
 .works__item--left {
-  padding-right: 3.968%;
+  padding: 40px 5.838% 40px 0;
   border-right: 1px solid var(--border-primary);
 }
 .works__item--right {
-  padding-left: 3.968%;
+  padding: 40px 0 40px 5.838%;
 }
 .works__item-img {
   display: block;
@@ -204,31 +204,26 @@ works
 .works__item-feature {
   display: flex;
   flex-direction: column;
-  gap: 15px;
-}
-.works__item-type {
-  display: flex;
-  justify-content: space-between;
-  margin-top: 20px;
 }
 .works__item-design-type {
-  margin: 0;
+  margin: 20px 0 0 0;
   font-family: var(--font-family-en);
   font-size: 1.8rem;
   letter-spacing: 0;
   font-weight: 400;
   color: var(--color-sub);
 }
-.works__item-work-type {
-  margin: 0;
-}
 .works__item-title {
-  margin: 0;
+  margin: 5px 0 0 0;
   font-size: 2.4rem;
   font-weight: 600;
+  line-height: 1.5;
+}
+.works__item-work-type {
+  margin: 10px 0 0 0;
 }
 .works__item-role {
-  margin: 0;
+  margin: 30px 0 0 0;
   font-family: var(--font-family-en);
   font-size: 1.8rem;
   letter-spacing: 0;
@@ -236,16 +231,17 @@ works
   color: var(--color-accent);
 }
 .works__btn {
-  margin: 0 var(--width-section-pc);
+  margin: 0 7.352%;
   justify-content: flex-end;
 }
 @media screen and (max-width: 768px) {
   .works__list {
-    margin: 20px var(--width-section-sp) 20px;
+    margin: 20px var(--width-section-sp);
   }
   .works__items--row {
     flex-direction: column;
     border-bottom: none;
+    padding: 0;
   }
   .works__item--left,
   .works__item--right {
@@ -264,22 +260,20 @@ works
   .works__item-img--banner {
     width: 73.714%;
   }
-  .works__item-feature {
-    gap: 10px;
-  }
-  .works__item-type {
-    margin-top: 15px;
-  }
   .works__item-design-type {
+    margin: 15px 0 0 0;
     font-size: 1.4rem;
   }
-  .works__item-work-type {
-    font-size: 1.2rem;
-  }
   .works__item-title {
+    margin: 2px 0 0 0;
     font-size: 1.8rem;
   }
+  .works__item-work-type {
+    margin: 6px 0 0 0;
+    font-size: 1.2rem;
+  }
   .works__item-role {
+    margin: 20px 0 0 0;
     font-size: 1.4rem;
   }
   .works__btn {
@@ -293,7 +287,7 @@ about
 .section--about {
   position: relative;
   border-top: 1px solid var(--border-primary);
-  padding: var(--height-section-pc) 0 310px;
+  padding: var(--height-section-large-pc) 0 310px;
   margin-bottom: 0;
 }
 .section--about::before {
@@ -326,31 +320,29 @@ about
 .about__feature {
   display: flex;
   justify-content: space-between;
-  margin: 60px 11% 0 var(--width-section-pc);
-  gap: var(--width-section-pc);
+  margin: 80px var(--width-section-large-pc) 0 7.279%;
+  gap: 5.514%;
 
   position: relative;
   z-index: 10;
 }
 .about__profile-img {
-  width: 48.288%;
-  max-width: 536px;
+  width: 42.176%;
+  max-width: 650px;
   position: relative;
 
   opacity: 0;
 }
 .about__profile-img .about__profile-img--bg {
   display: block;
-  width: 88.805%;
-  max-width: 476px;
+  width: 89.361%;
   position: absolute;
   top: 60px;
   left: 0;
 }
 .about__profile-img .about__profile-img--main {
   display: block;
-  width: 88.805%;
-  max-width: 476px;
+  width: 89.361%;
   position: absolute;
   top: 0;
   right: 0;
@@ -380,7 +372,7 @@ about
   .about__feature {
     flex-direction: column;
     justify-content: flex-start;
-    margin: 60px 15% 0 var(--width-section-pc);
+    margin-top: 60px;
     gap: 60px;
   }
   .about__profile-img {
@@ -407,7 +399,7 @@ about
 }
 @media screen and (max-width: 768px) {
   .section--about {
-    padding: var(--height-section-sp) 0 250px;
+    padding: var(--height-section-large-sp) 0 250px;
   }
   .section__header--about {
     position: relative;
