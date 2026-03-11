@@ -13,7 +13,7 @@ works
 .introduction__items--row {
   margin: 0 var(--width-section-large-pc);
   display: flex;
-  justify-content: space-between;
+  justify-content: flex-start;
 }
 .introduction__item--left,
 .introduction__item--center,
@@ -23,6 +23,9 @@ works
   justify-content: flex-start;
   width: 33.333%;
   padding: 30px 1.883%;
+}
+.introduction__item--banner {
+  justify-content: flex-end;
 }
 .introduction__item--left,
 .introduction__item--center {

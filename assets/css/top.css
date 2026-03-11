@@ -173,6 +173,9 @@ works
   justify-content: flex-start;
   width: 50%;
 }
+.works__item--banner {
+  justify-content: flex-end;
+}
 .works__item--left {
   padding: 40px 5.838% 40px 0;
   border-right: 1px solid var(--border-primary);
@@ -233,6 +236,20 @@ works
 .works__btn {
   margin: 0 7.352%;
   justify-content: flex-end;
+}
+@media screen and (min-width: 769px) and (max-width: 1024px) {
+  .works__item-design-type {
+    font-size: 1.4rem;
+  }
+  .works__item-title {
+    font-size: 1.8rem;
+  }
+  .works__item-work-type {
+    font-size: 1.2rem;
+  }
+  .works__item-role {
+    font-size: 1.4rem;
+  }
 }
 @media screen and (max-width: 768px) {
   .works__list {

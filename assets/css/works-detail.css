@@ -15,12 +15,12 @@ title
   margin: 0;
 }
 .works-detail__title {
-  margin: 5px 0 0 0;
+  margin: 10px 0 0 0;
   font-size: 4.8rem;
   font-weight: 600;
 }
 .works-detail__work-type {
-  margin: 10px 0 0 0;
+  margin: 14px 0 0 0;
   font-size: 1.8rem;
 }
 @media screen and (min-width: 769px) and (max-width: 1024px) {
@@ -517,6 +517,9 @@ pagenation
 }
 .pagination-img-btn07 {
   background-image: url(../images/design-detail-btn-img-portfolio.png);
+}
+.pagination-img-btn08 {
+  background-image: url(../images/design-detail-btn-img-design-event.png);
 }
 /* Arrow Object*/
 .pagination__btn-previous::before,
