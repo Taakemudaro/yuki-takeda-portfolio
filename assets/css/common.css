@@ -10,15 +10,27 @@
   --color-sub: #998670;
   --background-primary: #fffefb;
   --background-secondary: #352d23;
-  --background-contact: #95897a;
+  --background-contact: #bbae9d;
+  --background-work-detail: #fcfaf7;
   --point-primary: #352d23;
   --point-accent: #dc6810;
   --border-primary: rgba(153, 134, 112, 0.6);
 
-  --width-section-pc: 3.676%;
-  --height-section-pc: 100px;
+  /* 50px */
+  --width-section-small-pc: 3.676%;
+  /* 149px */
+  --width-section-large-pc: 10.955%;
+  /* 120px */
+  --height-section-small-pc: 120px;
+  /* 150px */
+  --height-section-large-pc: 150px;
+
+  /* 20px */
   --width-section-sp: 5.128%;
-  --height-section-sp: 50px;
+  /* 50px */
+  --height-section-small-sp: 50px;
+  /* 60px */
+  --height-section-large-sp: 60px;
 }
 
 html {
@@ -54,6 +66,14 @@ li {
 .br--sp {
   display: none;
 }
+
+/* underline(wave) */
+.under--wave {
+  text-decoration-line: underline;
+  text-decoration-style: wavy;
+  text-decoration-color: var(--color-accent);
+}
+
 @media screen and (max-width: 768px) {
   body {
     font-size: 1.4rem;
@@ -73,10 +93,10 @@ common
 .main {
 }
 .section {
-  margin: var(--height-section-pc) 0;
+  margin: var(--height-section-large-pc) 0;
 }
 .section__header {
-  margin: 0 var(--width-section-pc);
+  margin: 0 var(--width-section-large-pc);
 }
 .section__title {
   margin: 0;
@@ -171,7 +191,7 @@ common
 }
 @media screen and (max-width: 768px) {
   .section {
-    margin: var(--height-section-sp) 0;
+    margin: var(--height-section-large-sp) 0;
   }
   .section__header {
     margin: 0 var(--width-section-sp);
@@ -186,6 +206,7 @@ common
   .section__sub-title {
     font-size: 1.3rem;
     margin: 5px 0 0 0;
+    line-height: 1.5;
   }
   .section__btn > a {
     font-size: 1.4rem;
@@ -247,7 +268,7 @@ header
 .header {
   width: 100%;
   height: 65px;
-  padding: 0 var(--width-section-pc);
+  padding: 0 var(--width-section-small-pc);
   position: fixed;
   top: 0;
   left: 0;
@@ -308,7 +329,7 @@ header
   width: 73px;
   position: fixed;
   top: 18px;
-  right: var(--width-section-pc);
+  right: var(--width-section-small-pc);
   z-index: 999;
   cursor: pointer;
 }
@@ -358,17 +379,21 @@ header
   top: 0;
   right: 0;
   width: 27.205%;
-  padding: 80px var(--width-section-pc) 80px;
+  padding: 80px var(--width-section-small-pc) 80px;
   background-color: rgba(53, 45, 35, 0.9);
 
   transform: translateX(100%);
   opacity: 0;
-  transition: transform 0.8s, opacity 1s;
+  transition:
+    transform 0.8s,
+    opacity 1s;
 }
 .menu.active {
   transform: translate(0);
   opacity: 1;
-  transition: transform 0.8s, opacity 1s;
+  transition:
+    transform 0.8s,
+    opacity 1s;
   z-index: 997;
 }
 .menu--upper {
@@ -404,12 +429,16 @@ header
 
   transform: translateY(-100%);
   opacity: 0;
-  transition: transform 0.1s 1s, opacity 0.5s 0.5s;
+  transition:
+    transform 0.1s 1s,
+    opacity 0.5s 0.5s;
 }
 .menu__bg.active {
   transform: translate(0);
   opacity: 1;
-  transition: transform 0.1s, opacity 0.5s 0.5s;
+  transition:
+    transform 0.1s,
+    opacity 0.5s 0.5s;
 }
 @media screen and (min-width: 769px) and (max-width: 1024px) {
   .menu {
@@ -474,8 +503,8 @@ about
 contact
 */
 .section--contact {
-  padding: var(--height-section-pc) 0 0;
-  height: 705px;
+  padding: var(--height-section-large-pc) 0 0;
+  height: 800px;
   background-color: var(--background-contact);
 }
 .contact__box {
@@ -563,7 +592,8 @@ contact
   background-repeat: no-repeat;
   background-position: center;
   background-size: contain;
-  margin-left: 15px;
+  margin-left: 6px;
+  vertical-align: -3px;
 }
 .contact__img--pc {
   width: 52.596%;
@@ -637,7 +667,7 @@ contact
   line-height: 1.1;
   color: rgba(255, 251, 245, 0.6);
   overflow: hidden;
-  margin: 7px 0 0 0;
+  margin: 40px 0 0 0;
   white-space: nowrap;
 
   width: auto;
@@ -652,8 +682,8 @@ contact
 }
 @media screen and (max-width: 768px) {
   .section--contact {
-    padding: var(--height-section-sp) 0 0;
-    height: 769px;
+    padding: var(--height-section-large-sp) 0 0;
+    height: 789px;
   }
   .contact__box {
     flex-direction: column;
@@ -747,8 +777,6 @@ contact
   .contact__mail {
     margin-top: 40px;
   }
-  .contact__mail-description {
-  }
   .contact__mail-address {
     min-width: 200px;
     font-size: 1.6rem;
@@ -758,12 +786,11 @@ contact
   .contact__mail-address::after {
     width: 18px;
     height: 11px;
-    margin-left: 8px;
+    vertical-align: -1px;
   }
   .swiper-slide {
     font-size: 7rem;
-    line-height: 1;
-    margin: 7px 0 0 0;
+    margin: 10px 0 0 0;
   }
 }
 

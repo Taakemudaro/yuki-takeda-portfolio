@@ -139,32 +139,6 @@ if (fadeElements.length > 0) {
 }
 
 /**
- * header fade in / out（下スクロール時にフェードアウト）
- */
-document.addEventListener("DOMContentLoaded", () => {
-  const headerElement = document.querySelector(".header");
-
-  if (headerElement) {
-    const headerHeight = headerElement.offsetHeight;
-
-    // スタートポジション（可変）
-    let startScrollPos = 0;
-
-    const handleScroll = () => {
-      const scrollPos = window.pageYOffset;
-      if (scrollPos > startScrollPos && scrollPos > headerHeight) {
-        headerElement.style.top = `-${headerHeight}px`;
-      } else {
-        headerElement.style.top = 0;
-      }
-      startScrollPos = scrollPos;
-    };
-    window.addEventListener("scroll", handleScroll);
-    window.addEventListener("load", handleScroll);
-  }
-});
-
-/**
  * header logo fade in / out（FVで非表示）
  */
 const fvElement = document.querySelector(".fv");
