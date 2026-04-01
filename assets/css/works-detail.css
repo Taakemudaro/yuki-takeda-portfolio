@@ -351,6 +351,11 @@ information
 .information__description-list > .section__description:first-of-type {
   margin: 0;
 }
+.information__description-img {
+  display: inline-block;
+  width: 100%;
+  margin-top: 30px;
+}
 
 @media screen and (min-width: 769px) and (max-width: 1024px) {
   .information--small {
@@ -358,6 +363,9 @@ information
   }
   .information--large {
     padding: 70px var(--width-section-large-pc) 50px;
+  }
+  .information__description-img {
+    margin-top: 20px;
   }
 }
 @media screen and (max-width: 768px) {
@@ -410,6 +418,9 @@ information
   }
   .section__description-list.information__description-list {
     width: auto;
+    margin-top: 20px;
+  }
+  .information__description-img {
     margin-top: 20px;
   }
 }
