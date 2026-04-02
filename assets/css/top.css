@@ -304,7 +304,7 @@ about
 .section--about {
   position: relative;
   border-top: 1px solid var(--border-primary);
-  padding: var(--height-section-large-pc) 0 310px;
+  padding: var(--height-section-large-pc) 0 350px;
   margin-bottom: 0;
 }
 .section--about::before {
@@ -337,29 +337,34 @@ about
 .about__feature {
   display: flex;
   justify-content: space-between;
-  margin: 80px var(--width-section-large-pc) 0 7.279%;
+  margin: 80px var(--width-section-large-pc) 0 7.573%;
   gap: 5.514%;
 
   position: relative;
   z-index: 10;
 }
 .about__profile-img {
-  width: 42.176%;
-  max-width: 650px;
+  width: 39.981%;
+  min-width: 390px;
+  max-width: 500px;
   position: relative;
 
   opacity: 0;
 }
 .about__profile-img .about__profile-img--bg {
   display: block;
-  width: 89.361%;
+  min-width: 350px;
+  width: 89.164%;
+  max-width: 450px;
   position: absolute;
   top: 60px;
   left: 0;
 }
 .about__profile-img .about__profile-img--main {
   display: block;
-  width: 89.361%;
+  min-width: 350px;
+  width: 89.164%;
+  max-width: 450px;
   position: absolute;
   top: 0;
   right: 0;
@@ -368,9 +373,9 @@ about
   display: flex;
   flex-direction: column;
   justify-content: flex-end;
-  width: 51.801%;
+  width: 50.992%;
   max-width: 575px;
-  margin: 108px 0 20px;
+  margin: 126px 0 0;
 }
 .about__btn {
   margin-top: 50px;
@@ -394,16 +399,19 @@ about
   }
   .about__profile-img {
     width: 100%;
+    min-width: 0;
     max-width: none;
     aspect-ratio: 350 / 444;
   }
   .about__profile-img .about__profile-img--bg {
     width: 94.857%;
+    min-width: 0;
     max-width: none;
     top: 40px;
   }
   .about__profile-img .about__profile-img--main {
     width: 94.857%;
+    min-width: 0;
     max-width: none;
   }
   .about__profile-feature {
@@ -436,16 +444,19 @@ about
   }
   .about__profile-img {
     width: 100%;
+    min-width: 0;
     max-width: none;
     aspect-ratio: 350 / 444;
   }
   .about__profile-img .about__profile-img--bg {
     width: 94.857%;
+    min-width: 0;
     max-width: none;
     top: 18px;
   }
   .about__profile-img .about__profile-img--main {
     width: 94.857%;
+    min-width: 0;
     max-width: none;
   }
   .about__profile-feature {
