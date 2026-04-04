@@ -345,7 +345,7 @@ strength
 .strength {
   position: relative;
   display: flex;
-  margin-bottom: 30px;
+  margin-bottom: 20px;
 }
 .strength__feature {
   width: 69.117%;
@@ -1012,7 +1012,7 @@ vision
 }
 @media screen and (min-width: 769px) and (max-width: 1024px) {
   .vision {
-    margin-bottom: 30px;
+    margin-bottom: 20px;
     flex-direction: column;
   }
   .vision__img {

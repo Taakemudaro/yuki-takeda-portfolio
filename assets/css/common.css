@@ -20,10 +20,10 @@
   --width-section-small-pc: 3.676%;
   /* 149px */
   --width-section-large-pc: 10.955%;
+  /* 100px */
+  --height-section-small-pc: 100px;
   /* 120px */
-  --height-section-small-pc: 120px;
-  /* 150px */
-  --height-section-large-pc: 150px;
+  --height-section-large-pc: 120px;
 
   /* 20px */
   --width-section-sp: 5.128%;
@@ -504,7 +504,7 @@ contact
 */
 .section--contact {
   padding: var(--height-section-large-pc) 0 0;
-  height: 800px;
+  height: 740px;
   background-color: var(--background-contact);
 }
 .contact__box {
@@ -667,7 +667,7 @@ contact
   line-height: 1.1;
   color: rgba(255, 251, 245, 0.6);
   overflow: hidden;
-  margin: 40px 0 0 0;
+  margin: 12px 0 0 0;
   white-space: nowrap;
 
   width: auto;

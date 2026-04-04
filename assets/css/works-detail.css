@@ -267,7 +267,7 @@ information
 
 /* Small Frame */
 .information--small {
-  padding: 80px 18.235% var(--height-section-small-pc);
+  padding: 60px 18.235% var(--height-section-small-pc);
 }
 .information--small .information__item {
   padding: 40px 0;
@@ -316,7 +316,7 @@ information
 
 /* Large Frame */
 .information--large {
-  padding: 70px 18.235% 50px;
+  padding: 50px 18.235% 50px;
   background-color: var(--background-work-detail);
 }
 .information--large .information__item {
@@ -441,7 +441,7 @@ pagenation
   padding-bottom: var(--height-section-small-pc);
 }
 .pagination--img {
-  padding-top: var(--height-section-small-pc);
+  padding-top: 50px;
   padding-bottom: var(--height-section-large-pc);
 }
 .pagination--img-gray {
@@ -644,8 +644,7 @@ pagenation
     padding: 0 var(--width-section-large-pc) var(--height-section-small-pc);
   }
   .pagination--img {
-    padding: var(--height-section-small-pc) var(--width-section-large-pc)
-      var(--height-section-large-pc);
+    padding: 50px var(--width-section-large-pc) var(--height-section-large-pc);
   }
 }
 @media screen and (max-width: 768px) {
@@ -660,8 +659,8 @@ pagenation
     padding: 0 var(--width-section-sp) var(--height-section-small-sp);
   }
   .pagination--img {
-    padding: var(--height-section-small-sp) var(--width-section-sp)
-      var(--height-section-large-sp) var(--width-section-sp);
+    padding: 30px var(--width-section-sp) var(--height-section-large-sp)
+      var(--width-section-sp);
   }
   .pagination span,
   .pagination--img span {
@@ -708,8 +707,8 @@ gallery
 .gallery {
   display: flex;
   flex-direction: column;
-  gap: var(--height-section-small-pc);
-  margin: var(--height-section-small-pc) var(--width-section-small-pc) 0;
+  gap: 60px;
+  margin: var(--height-section-small-pc) var(--width-section-small-pc) 50px;
 }
 .gallery__row--pc,
 .gallery__row--pc--1cl {
@@ -756,7 +755,7 @@ gallery
 @media screen and (max-width: 768px) {
   .gallery {
     gap: 30px;
-    margin: 0 var(--width-section-sp);
+    margin: var(--height-section-small-sp) var(--width-section-sp) 20px;
   }
   .gallery__row--pc {
     flex-direction: column;
