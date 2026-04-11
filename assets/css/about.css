@@ -902,7 +902,7 @@ life
     margin: 30px var(--width-section-sp) var(--height-section-small-sp);
   }
   .life__list {
-    margin-top: 40px;
+    margin-top: 20px;
   }
   .life__item {
     padding: 30px 0 0;
@@ -1086,6 +1086,16 @@ routine
   padding: var(--height-section-small-pc) 0 var(--height-section-large-pc);
   background-color: var(--background-primary);
 }
+.routine__feature {
+  margin: 0 var(--width-section-large-pc);
+}
+.routine__feature > .about__title {
+  margin: 0;
+}
+.routine__feature .section__description {
+  margin: 0;
+}
+
 .routine__list {
   margin: 50px 8.75% 0;
   padding: 0;
@@ -1152,6 +1162,12 @@ routine
 @media screen and (max-width: 768px) {
   .routine {
     padding: var(--height-section-small-sp) 0;
+  }
+  .routine__feature {
+    margin: 0 var(--width-section-sp);
+  }
+  .routine__feature .section__description {
+    margin-top: 10px;
   }
   .routine__list {
     margin: 30px var(--width-section-sp) 0;
