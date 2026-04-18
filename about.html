@@ -237,14 +237,39 @@
         <article>
           <div class="profile fadein">
             <div class="footprint"></div>
-            <div class="section__header">
-              <h2 class="section__title">
-                <span class="section__title--ja">私について</span>
-                <span class="section__title--en">About<br />Me</span>
-              </h2>
-              <p class="section__sub-title">
-                人生も、デザインも、旅だと思います。
-              </p>
+            <div class="section__header section__header--profile">
+              <div class="profile__header-main">
+                <h2 class="section__title">
+                  <span class="section__title--ja">私について</span>
+                  <span class="section__title--en">About<br />Me</span>
+                </h2>
+                <p class="section__sub-title">
+                  人生も、デザインも、旅だと思います。
+                </p>
+              </div>
+              <div class="profile__header-contents">
+                <p class="profile__contents-title">Contents</p>
+                <ul class="profile__contents-list">
+                  <li class="profile__contents-item">
+                    <a href="#thought">デザインに対する想い</a>
+                  </li>
+                  <li class="profile__contents-item">
+                    <a href="#strength">私の強み</a>
+                  </li>
+                  <li class="profile__contents-item">
+                    <a href="#skill">できること</a>
+                  </li>
+                  <li class="profile__contents-item">
+                    <a href="#life">私の人生</a>
+                  </li>
+                  <li class="profile__contents-item">
+                    <a href="#vision">私のビジョン</a>
+                  </li>
+                  <li class="profile__contents-item">
+                    <a href="#routine">日々の取り組み</a>
+                  </li>
+                </ul>
+              </div>
             </div>
             <div class="profile__upper">
               <div class="profile__img">
@@ -307,7 +332,7 @@
               </div>
             </div>
           </div>
-          <div class="thought">
+          <div class="thought" id="thought">
             <div class="thought__countries--upper fadein"></div>
             <div class="thought__feature fadein">
               <h3 class="thought__title">
@@ -335,7 +360,7 @@
             </div>
             <div class="thought__countries--lower fadein"></div>
           </div>
-          <div class="strength">
+          <div class="strength" id="strength">
             <div class="strength__feature">
               <h3 class="about__title fadein">私の強み</h3>
               <ul class="strength__list">
@@ -478,7 +503,7 @@
             </div>
             <div class="strength__bg"></div>
           </div>
-          <div class="skill fadein">
+          <div class="skill fadein" id="skill">
             <h3 class="about__title">できること</h3>
             <ul class="skill__list">
               <li class="skill__item">
@@ -545,7 +570,7 @@
               </li>
             </ul>
           </div>
-          <div class="life fadein">
+          <div class="life fadein" id="life">
             <div class="life__txt">
               <div class="life__feature">
                 <h3 class="about__title">私の人生</h3>
@@ -615,7 +640,7 @@
               <img src="./assets/images/my-life-txt.svg" alt="My Life" />
             </div>
           </div>
-          <div class="vision">
+          <div class="vision" id="vision">
             <div class="vision__img">
               <img src="./assets/images/my-vision-txt.svg" alt="My Vision" />
             </div>
@@ -649,14 +674,9 @@
               </ul>
             </div>
           </div>
-          <div class="routine fadein">
+          <div class="routine fadein" id="routine">
             <div class="routine__feature">
               <h3 class="about__title">日々の取り組み</h3>
-              <div class="section__description-list">
-                <p class="section__description">
-                  ※ 掲載画像は著作権に考慮し、ぼかし加工を施しています。
-                </p>
-              </div>
             </div>
             <ul class="routine__list">
               <li class="routine__item">
@@ -679,6 +699,9 @@
                       src="./assets/images/about-routine-1.png"
                       alt="トレース訓練"
                     />
+                    <p class="routine__caption">
+                      ※ 掲載画像は著作権に考慮し、ぼかし加工を施しています。
+                    </p>
                   </div>
                 </div>
               </li>
@@ -700,6 +723,9 @@
                       src="./assets/images/about-routine-2.png"
                       alt="街中にあるデザイン分析"
                     />
+                    <p class="routine__caption">
+                      ※ 掲載画像は著作権に考慮し、ぼかし加工を施しています。
+                    </p>
                   </div>
                 </div>
               </li>
@@ -727,6 +753,9 @@
                       src="./assets/images/about-routine-3.png"
                       alt="生成AI"
                     />
+                    <p class="routine__caption">
+                      ※ 掲載画像は著作権に考慮し、ぼかし加工を施しています。
+                    </p>
                   </div>
                 </div>
               </li>
